@@ -1,1 +1,28 @@
 # Digital-Image-Processing
+# How to Install Python and Dependencies for This Project (Linux)
+
+1. **Install Python (if not already installed):**
+   ```sh
+   sudo apt update
+   sudo apt install python3 python3-pip
+   ```
+
+2. **Install required Python packages:**
+   ```sh
+   pip3 install numpy opencv-python matplotlib
+   ```
+
+3. **(Optional) If you use Jupyter Notebooks:**
+   ```sh
+   pip3 install notebook
+   ```
+
+4. **Run your scripts:**
+   ```sh
+   python3 your_script.py
+   ```
+
+**Dependencies used in this project:**
+- numpy
+- opencv-python
+- matplotlib
